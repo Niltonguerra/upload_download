@@ -1,0 +1,15 @@
+.texto{
+    color:rgb(0, 255, 255);
+}
+
+#caixa{
+    background-color: rgb(19, 26, 23);
+    padding: 10px;
+    border-radius: 10px;
+}
+.tabela{
+    background-color: rgb(19, 26, 23);
+    color:rgb(0, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+}

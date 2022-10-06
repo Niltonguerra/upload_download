@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style type="text/css">
+ @import url("Formulariophp.css"); 
+</style>
+
+<html lang="PT-Brasil">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <div class="formulario" 
+</head>
+<body>
+    <form name="form1" method="post">
+        <center>
+            <legend class="info"><h1>Cadastro de Funcionários</h1></legend>
+
+        <p>N° Registro:<br>
+            <a><input type='text' name="n_registro" size='50' maxlength='60'  placeholder="N° Registro" required></a>
+        <p>Nome do Funcionario<br>
+            <a><input type='text' name="nome_funcionario" size='50' maxlength='60'  placeholder="Nome do Funcionario"required></a>
+        <p>Data de Admissão:<br>
+            <a><input type='text' name="data_adimissao" size='50' maxlength='60'  placeholder="Data de Admissão"required></a>
+        <p></p>Cargo
+            <select name="cargo" required>
+                <option value="seguranca">Segurança</option>
+                <option value="telemarketing">Atendente de telemarketing</option>
+                <option value="professor">Professor</option>
+                <option value="quimico">Técnico Químico</option>
+                <option value="engenheiro">Engenheiro Civil</option>
+                <option value="analista">Analista de Sistemas</option>
+            </select>
+        <p>Quantidade de salários minimos:<br>
+                <a><input type='text' name="qtde_salarios" size='50' maxlength='60'  placeholder="quantidade de salários minimos" required></a><br>
+				
+        <a href="listagem.php"><h6>Visualizar Demonstrativos De Pagamento</h6></a>
+		
+		
+            <input type='submit' name="".btn_incluir value=Cadastrar onclick="document.form1.action='cadastrar.php' " >&nbsp;
+        </center>
+    </form>
+</div> 
+</body>
+</html>

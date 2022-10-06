@@ -1,0 +1,216 @@
+2022-08-15 20:28:24 6608 [Note] Plugin 'FEDERATED' is disabled.
+2022-08-15 20:28:24 6608 [Note] InnoDB: The InnoDB memory heap is disabled
+2022-08-15 20:28:24 6608 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-08-15 20:28:24 6608 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2022-08-15 20:28:24 6608 [Note] InnoDB: Not using CPU crc32 instructions
+2022-08-15 20:28:24 6608 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2022-08-15 20:28:24 6608 [Note] InnoDB: Completed initialization of buffer pool
+2022-08-15 20:28:27 6608 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-08-15 20:28:27 6608 [Note] InnoDB: The log sequence numbers 1626134 and 1626134 in ibdata files do not match the log sequence number 1775679 in the ib_logfiles!
+2022-08-15 20:28:27 6608 [Note] InnoDB: Database was not shutdown normally!
+2022-08-15 20:28:27 6608 [Note] InnoDB: Starting crash recovery.
+2022-08-15 20:28:27 6608 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2022-08-15 20:28:27 6608 [Note] InnoDB: Restoring possible half-written data pages 
+2022-08-15 20:28:27 6608 [Note] InnoDB: from the doublewrite buffer...
+2022-08-15 20:28:34 6608 [ERROR] InnoDB: Table aula1/alunos in the InnoDB data dictionary has tablespace id 10, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2022-08-15 20:28:34 6608 [ERROR] InnoDB: Table cliente/fornecedor in the InnoDB data dictionary has tablespace id 8, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2022-08-15 20:28:34 6608 [ERROR] InnoDB: Table cliente/funcionario in the InnoDB data dictionary has tablespace id 13, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2022-08-15 20:28:34 6608 [ERROR] InnoDB: Table cliente/produto in the InnoDB data dictionary has tablespace id 12, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2022-08-15 20:28:34 6608 [ERROR] InnoDB: Table cliente/vendas in the InnoDB data dictionary has tablespace id 11, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2022-08-15 20:28:34 6608 [ERROR] InnoDB: Table cliente1/alunos in the InnoDB data dictionary has tablespace id 14, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2022-08-15 20:28:34 6608 [ERROR] InnoDB: Table escola/alunos in the InnoDB data dictionary has tablespace id 15, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2022-08-15 20:28:34 6608 [ERROR] InnoDB: Table escola/funcionarios in the InnoDB data dictionary has tablespace id 16, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2022-08-15 20:28:34 6608 [Note] InnoDB: 128 rollback segment(s) are active.
+2022-08-15 20:28:34 6608 [Note] InnoDB: Waiting for purge to start
+2022-08-15 20:28:35 6608 [Note] InnoDB: 5.6.13 started; log sequence number 1775679
+2022-08-15 20:28:35 6608 [Note] Server hostname (bind-address): '*'; port: 3307
+2022-08-15 20:28:35 6608 [Note] IPv6 is available.
+2022-08-15 20:28:35 6608 [Note]   - '::' resolves to '::';
+2022-08-15 20:28:35 6608 [Note] Server socket created on IP: '::'.
+2022-08-15 20:28:47 6608 [Note] Event Scheduler: Loaded 0 events
+2022-08-15 20:28:47 6608 [Note] E:\usbwebserver8.0/mysql/bin/mysqld_usbwv8.exe: ready for connections.
+Version: '5.6.13'  socket: ''  port: 3307  MySQL Community Server (GPL)
+2022-08-15 22:04:28 18088 [Note] Plugin 'FEDERATED' is disabled.
+2022-08-15 22:04:28 18088 [Note] InnoDB: The InnoDB memory heap is disabled
+2022-08-15 22:04:28 18088 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-08-15 22:04:28 18088 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2022-08-15 22:04:28 18088 [Note] InnoDB: Not using CPU crc32 instructions
+2022-08-15 22:04:28 18088 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2022-08-15 22:04:28 18088 [Note] InnoDB: Completed initialization of buffer pool
+2022-08-15 22:04:29 18088 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-08-15 22:04:29 18088 [Note] InnoDB: Log scan progressed past the checkpoint lsn 1775679
+2022-08-15 22:04:29 18088 [Note] InnoDB: Database was not shutdown normally!
+2022-08-15 22:04:29 18088 [Note] InnoDB: Starting crash recovery.
+2022-08-15 22:04:29 18088 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2022-08-15 22:04:29 18088 [Note] InnoDB: Restoring possible half-written data pages 
+2022-08-15 22:04:29 18088 [Note] InnoDB: from the doublewrite buffer...
+InnoDB: Doing recovery: scanned up to log sequence number 1775689
+2022-08-15 22:04:36 18088 [ERROR] InnoDB: Table aula1/alunos in the InnoDB data dictionary has tablespace id 10, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2022-08-15 22:04:36 18088 [ERROR] InnoDB: Table cliente/fornecedor in the InnoDB data dictionary has tablespace id 8, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2022-08-15 22:04:36 18088 [ERROR] InnoDB: Table cliente/funcionario in the InnoDB data dictionary has tablespace id 13, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2022-08-15 22:04:36 18088 [ERROR] InnoDB: Table cliente/produto in the InnoDB data dictionary has tablespace id 12, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2022-08-15 22:04:36 18088 [ERROR] InnoDB: Table cliente/vendas in the InnoDB data dictionary has tablespace id 11, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2022-08-15 22:04:36 18088 [ERROR] InnoDB: Table cliente1/alunos in the InnoDB data dictionary has tablespace id 14, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2022-08-15 22:04:36 18088 [ERROR] InnoDB: Table escola/alunos in the InnoDB data dictionary has tablespace id 15, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2022-08-15 22:04:36 18088 [ERROR] InnoDB: Table escola/funcionarios in the InnoDB data dictionary has tablespace id 16, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2022-08-15 22:04:36 18088 [Note] InnoDB: 128 rollback segment(s) are active.
+2022-08-15 22:04:36 18088 [Note] InnoDB: Waiting for purge to start
+2022-08-15 22:04:36 18088 [Note] InnoDB: 5.6.13 started; log sequence number 1775689
+2022-08-15 22:04:36 18088 [Note] Server hostname (bind-address): '*'; port: 3307
+2022-08-15 22:04:36 18088 [Note] IPv6 is available.
+2022-08-15 22:04:36 18088 [Note]   - '::' resolves to '::';
+2022-08-15 22:04:36 18088 [Note] Server socket created on IP: '::'.
+2022-08-22 19:17:38 5352 [Note] Plugin 'FEDERATED' is disabled.
+2022-08-22 19:17:38 5352 [Note] InnoDB: The InnoDB memory heap is disabled
+2022-08-22 19:17:38 5352 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-08-22 19:17:38 5352 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2022-08-22 19:17:38 5352 [Note] InnoDB: Not using CPU crc32 instructions
+2022-08-22 19:17:38 5352 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2022-08-22 19:17:38 5352 [Note] InnoDB: Completed initialization of buffer pool
+2022-08-22 19:17:39 5352 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-08-22 19:17:39 5352 [Note] InnoDB: The log sequence numbers 1626134 and 1626134 in ibdata files do not match the log sequence number 1781837 in the ib_logfiles!
+2022-08-22 19:17:39 5352 [Note] InnoDB: Database was not shutdown normally!
+2022-08-22 19:17:39 5352 [Note] InnoDB: Starting crash recovery.
+2022-08-22 19:17:39 5352 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2022-08-22 19:17:39 5352 [Note] InnoDB: Restoring possible half-written data pages 
+2022-08-22 19:17:39 5352 [Note] InnoDB: from the doublewrite buffer...
+2022-08-22 19:17:42 5352 [ERROR] InnoDB: Table aula1/alunos in the InnoDB data dictionary has tablespace id 10, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2022-08-22 19:17:42 5352 [ERROR] InnoDB: Table cliente/fornecedor in the InnoDB data dictionary has tablespace id 8, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2022-08-22 19:17:42 5352 [ERROR] InnoDB: Table cliente/funcionario in the InnoDB data dictionary has tablespace id 13, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2022-08-22 19:17:42 5352 [ERROR] InnoDB: Table cliente/produto in the InnoDB data dictionary has tablespace id 12, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2022-08-22 19:17:42 5352 [ERROR] InnoDB: Table cliente/vendas in the InnoDB data dictionary has tablespace id 11, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2022-08-22 19:17:42 5352 [ERROR] InnoDB: Table cliente1/alunos in the InnoDB data dictionary has tablespace id 14, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2022-08-22 19:17:42 5352 [ERROR] InnoDB: Table escola/alunos in the InnoDB data dictionary has tablespace id 15, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2022-08-22 19:17:42 5352 [ERROR] InnoDB: Table escola/funcionarios in the InnoDB data dictionary has tablespace id 16, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2022-08-22 19:17:42 5352 [Note] InnoDB: 128 rollback segment(s) are active.
+2022-08-22 19:17:42 5352 [Note] InnoDB: Waiting for purge to start
+2022-08-22 19:17:42 5352 [Note] InnoDB: 5.6.13 started; log sequence number 1781837
+2022-08-22 19:17:42 5352 [Note] Server hostname (bind-address): '*'; port: 3307
+2022-08-22 19:17:42 5352 [Note] IPv6 is available.
+2022-08-22 19:17:42 5352 [Note]   - '::' resolves to '::';
+2022-08-22 19:17:42 5352 [Note] Server socket created on IP: '::'.
+2022-08-29 19:25:51 10496 [Note] Plugin 'FEDERATED' is disabled.
+2022-08-29 19:25:51 10496 [Note] InnoDB: The InnoDB memory heap is disabled
+2022-08-29 19:25:51 10496 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-08-29 19:25:51 10496 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2022-08-29 19:25:51 10496 [Note] InnoDB: Not using CPU crc32 instructions
+2022-08-29 19:25:51 10496 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2022-08-29 19:25:51 10496 [Note] InnoDB: Completed initialization of buffer pool
+2022-08-29 19:25:52 10496 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-08-29 19:25:52 10496 [Note] InnoDB: The log sequence numbers 1626134 and 1626134 in ibdata files do not match the log sequence number 1788286 in the ib_logfiles!
+2022-08-29 19:25:52 10496 [Note] InnoDB: Database was not shutdown normally!
+2022-08-29 19:25:52 10496 [Note] InnoDB: Starting crash recovery.
+2022-08-29 19:25:52 10496 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2022-08-29 19:25:52 10496 [Note] InnoDB: Restoring possible half-written data pages 
+2022-08-29 19:25:52 10496 [Note] InnoDB: from the doublewrite buffer...
+2022-08-29 19:25:58 10496 [ERROR] InnoDB: Table aula1/alunos in the InnoDB data dictionary has tablespace id 10, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2022-08-29 19:25:58 10496 [ERROR] InnoDB: Table cliente/fornecedor in the InnoDB data dictionary has tablespace id 8, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2022-08-29 19:25:58 10496 [ERROR] InnoDB: Table cliente/funcionario in the InnoDB data dictionary has tablespace id 13, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2022-08-29 19:25:58 10496 [ERROR] InnoDB: Table cliente/produto in the InnoDB data dictionary has tablespace id 12, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2022-08-29 19:25:58 10496 [ERROR] InnoDB: Table cliente/vendas in the InnoDB data dictionary has tablespace id 11, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2022-08-29 19:25:58 10496 [ERROR] InnoDB: Table cliente1/alunos in the InnoDB data dictionary has tablespace id 14, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2022-08-29 19:25:58 10496 [ERROR] InnoDB: Table escola/alunos in the InnoDB data dictionary has tablespace id 15, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2022-08-29 19:25:58 10496 [ERROR] InnoDB: Table escola/funcionarios in the InnoDB data dictionary has tablespace id 16, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2022-08-29 19:25:58 10496 [Note] InnoDB: 128 rollback segment(s) are active.
+2022-08-29 19:25:58 10496 [Note] InnoDB: Waiting for purge to start
+2022-08-29 19:25:58 10496 [Note] InnoDB: 5.6.13 started; log sequence number 1788286
+2022-08-29 19:25:58 10496 [Note] Server hostname (bind-address): '*'; port: 3307
+2022-08-29 19:25:58 10496 [Note] IPv6 is available.
+2022-08-29 19:25:58 10496 [Note]   - '::' resolves to '::';
+2022-08-29 19:25:58 10496 [Note] Server socket created on IP: '::'.

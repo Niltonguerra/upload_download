@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Arapey&display=swap');
+
+
+
+body {
+    background: rgb(9, 2, 22);
+    color: white;
+    font-family: arial;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.formulario{
+    background: rgb(141, 107, 204);
+    position: fixed;
+    height: 380px;
+    width: 600px;
+    top: 20px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+}
+
+.info{
+    position: relative;
+    margin: 10px;
+
+}
